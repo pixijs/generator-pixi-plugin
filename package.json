@@ -1,0 +1,38 @@
+{
+  "name": "generator-pixi-plugin",
+  "description": "A Yeoman generator to generate a pixi plugin using browserify.",
+  "version": "1.0.0",
+  "author": "Chad Engler <chad@pantherdev.com>",
+  "license": "ISC",
+  "main": "app/index.js",
+  "keywords": [
+    "yeoman",
+    "generator",
+    "gulp",
+    "browserify",
+    "pixi"
+  ],
+  "homepage": "https://github.com/pixijs/generator-pixi-plugin",
+  "bugs": "https://github.com/pixijs/generator-pixi-plugin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pixijs/generator-pixi-plugin.git"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.17.7",
+    "chalk": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  }
+}

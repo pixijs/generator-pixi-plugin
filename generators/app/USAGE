@@ -1,0 +1,20 @@
+Description:
+    Creates a new pixi-plugin.
+
+Example:
+    yo pixi-plugin
+
+    This will create:
+        gulp/tasks: Gulp build tasks
+        gulp/util: Gulp build utilities
+        src/: JavaScript source (CommonJS files built with pixi-plugin)
+
+        .editorconfig: editor configuration file
+        .gitignore: git ignore files
+        .jshintrc: jshint configuration
+
+        gulpfile.js: Configuration and bootstrap for the task runner.
+        package.json: Package descriptor.
+        README.md: Your application's README file.
+        LICENSE: Your application's license file.
+        CONTRIBUTING.md: A contribution guide for your project.

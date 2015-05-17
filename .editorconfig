@@ -1,0 +1,19 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+root = true
+
+# General Options
+[*]
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# Special Files
+[{package.json,.travis.yml}]
+indent_size = 2
