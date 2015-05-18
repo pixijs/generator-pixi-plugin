@@ -1,7 +1,7 @@
 {
   "name": "generator-pixi-plugin",
   "description": "A Yeoman generator to generate a pixi plugin using browserify.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Chad Engler <chad@pantherdev.com>",
   "license": "ISC",
   "main": "app/index.js",
